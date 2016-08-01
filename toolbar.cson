@@ -1,0 +1,134 @@
+# This file is used by Flex Tool Bar to create buttons on your Tool Bar.
+# For more information how to use this package and create your own buttons,
+#   read the documentation on https://atom.io/packages/flex-tool-bar
+
+[
+  {
+    type:     "button"
+    icon:     "file"
+    iconset:  "fa"
+    callback: "application:new-file"
+    tooltip:  "New File"
+  }
+  {
+    type:     "button"
+    icon:     "file-text"
+    iconset:  "fa"
+    callback: "core:save"
+    tooltip:  "Save"
+  }
+  {
+    type:     "button"
+    icon:     "files-o"
+    iconset:  "fa"
+    callback: "core:save-as"
+    tooltip:  "Save As..."
+  }
+  {
+    type:     "button"
+    icon:     "folder"
+    iconset:  "fa"
+    callback: "application:new-folder"
+    tooltip:  "New Folder"
+  }
+  {
+    type:     "button"
+    icon:     "folder-open"
+    iconset:  "fa"
+    callback: "application:add-project-folder"
+    tooltip:  "Add Project Folder"
+  }
+  {
+    type:     "button"
+    icon:     "refresh"
+    iconset:  "fa"
+    callback: "window:reload"
+    tooltip:  "Reload Window"
+  }
+  {
+    type: "spacer"
+  }
+  {
+    type:     "button"
+    icon:     "search"
+    iconset:  "fa"
+    callback: "find-and-replace:show"
+    tooltip:  "Find"
+  }
+  {
+    type:     "button"
+    icon:     "random"
+    iconset:  "fa"
+    callback: "find-and-replace:show-replace"
+    tooltip:  "Replace"
+  }
+  {
+    type:     "button"
+    icon:     "level-up"
+    iconset:  "fa"
+    callback: "editor:fold-all"
+    tooltip:  "Fold All"
+  }
+  {
+    type:     "button"
+    icon:     "level-down"
+    iconset:  "fa"
+    callback: "editor:unfold-all"
+    tooltip:  "Unfold All"
+  }
+  {
+    type:     "button"
+    icon:     "sitemap"
+    iconset:  "fa"
+    callback: "tree-view:toggle"
+    tooltip:  "Sidebar"
+  }
+  {
+    type: "spacer"
+  }
+  {
+    type:     "button"
+    icon:     "git"
+    iconset:  "fa"
+    callback: "git-plus:menu"
+    tooltip:  "Git Plus"
+  }
+  {
+    type:     "button"
+    icon:     "git-square"
+    iconset:  "fa"
+    callback: "git-control:toggle"
+    tooltip:  "Git Control"
+  }
+  {
+    type:     "button"
+    icon:     "social-markdown"
+    iconset:  "ion"
+    callback: "markdown-preview:toggle"
+    tooltip:  "Markdown"
+  }
+  {
+    type: "spacer"
+  }
+  {
+    type:     "button"
+    icon:     "navicon-round"
+    iconset:  "ion"
+    callback: "command-palette:toggle"
+    tooltip:  "Command Palette"
+  }
+  {
+    type:     "button"
+    icon:     "gear"
+    iconset:  "fa"
+    callback: "flex-tool-bar:edit-config-file"
+    tooltip:  "Toolbar"
+  }
+  {
+    type:     "button"
+    icon:     "gears"
+    iconset:  "fa"
+    callback: "settings-view:open"
+    tooltip:  "Settings"
+  }
+]
