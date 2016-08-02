@@ -3,6 +3,7 @@
 #   read the documentation on https://atom.io/packages/flex-tool-bar
 
 [
+  # Common tools
   {
     type:     "button"
     icon:     "file"
@@ -86,19 +87,39 @@
   {
     type: "spacer"
   }
-  {
-    type:     "button"
-    icon:     "git"
-    iconset:  "fa"
-    callback: "git-plus:menu"
-    tooltip:  "Git Plus"
-  }
+  # Git and Markdown tools
   {
     type:     "button"
     icon:     "git-square"
     iconset:  "fa"
     callback: "git-control:toggle"
     tooltip:  "Git Control"
+  }
+  {
+
+    type:     "button"
+    icon:     "git"
+    iconset:  "fa"
+    callback: "git-plus:menu"
+    tooltip:  "Git Plus - Menu"
+  }
+  {
+    type:     "button"
+    icon:     "history"
+    callback: "git-plus:status"
+    tooltip:  "Git Plus - Status"
+  }
+  {
+    type:     "button"
+    icon:     "repo-pull"
+    callback: "git-plus:pull"
+    tooltip:  "Git Plus - Pull"
+  }
+  {
+    type:     "button"
+    icon:     "repo-push"
+    callback: "git-plus:add-and-commit-and-push"
+    tooltip:  "Git Plus - Add, Commit and Push"
   }
   {
     type:     "button"
@@ -110,6 +131,7 @@
   {
     type: "spacer"
   }
+  # Command Palette, toolbars and settings
   {
     type:     "button"
     icon:     "navicon-round"
